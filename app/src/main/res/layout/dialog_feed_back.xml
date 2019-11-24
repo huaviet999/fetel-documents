@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="30dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="23sp"
+        android:textColor="#3F51B5"
+        android:textStyle="bold"
+        android:text="@string/feed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:textColorHighlight="#3F51B5"
+        android:backgroundTint="@android:color/darker_gray"
+        android:id="@+id/edt_feed_back_name"
+        android:layout_marginTop="10dp"
+        android:inputType="text"
+        android:hint="Tên của bạn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:textColorHighlight="#3F51B5"
+        android:backgroundTint="@android:color/darker_gray"
+        android:id="@+id/edt_feed_back_student_code"
+        android:inputType="number"
+        android:hint="MSSV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:textColorHighlight="#3F51B5"
+        android:backgroundTint="@android:color/darker_gray"
+        android:id="@+id/edt_feed_back_content"
+        android:hint="Viết phản hồi của bạn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:background="@drawable/button_border"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:id="@+id/btn_feed_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Xác Nhận" />
+</LinearLayout>

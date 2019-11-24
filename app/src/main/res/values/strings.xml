@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fetel Documents</string>
+    <!-- NAVTGATION OPEN CLOSE -->
+    <string name="string_nav_open">Open NavigationView</string>
+    <string name="string_nav_close">Close NavigationView</string>
+    <!-- NAVIGATION MENU LIST -->
+    <string name="string_nav_home">Trang chính</string>
+    <string name="string_nav_recent">Gần đây</string>
+    <string name="string_nav_categories">Danh sách</string>
+    <string name="string_nav_offline">Ngoại tuyến</string>
+    <string name="string_nav_option">Tùy chọn</string>
+    <string name="string_nav_settings">Cài đặt</string>
+    <string name="string_nav_about">Giới thiệu</string>
+    <!-- OPTION MENU LIST -->
+    <string name="first_option">Phản Hồi</string>
+    <string name="second_option">Second Option</string>
+    <string name="third_option">Third Option</string>
+
+    <!-- CATEGORIES TITLE -->
+    <string name="popular_categories">Các Học Kì</string>
+    <string name="most_categories">Các Danh Mục</string>
+    <!--FEED BACK -->
+    <string name="feed_back_title">Phản hồi</string>
+    <string name="feed_back">Hãy để lại phản hồi của bạn</string>
+</resources>

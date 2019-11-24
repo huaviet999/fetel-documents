@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:visibility="invisible"
+        android:id="@+id/txt_empty_content"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="22sp"
+        android:text="Hiện tại mục này không có nội dung nào"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/exercise_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</FrameLayout>
