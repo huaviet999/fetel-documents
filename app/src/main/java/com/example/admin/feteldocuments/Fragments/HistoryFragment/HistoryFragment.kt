@@ -24,7 +24,7 @@ class HistoryFragment : Fragment(){
             startActivity(intent)
         }
         override fun onItemLongClickListener(position: Int, id: String?) {
-
+            //onItemLongCLickListener
         }
 
     }
