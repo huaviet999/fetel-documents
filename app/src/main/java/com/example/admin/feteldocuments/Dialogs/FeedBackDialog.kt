@@ -23,6 +23,7 @@ class FeedBackDialog : AppCompatDialogFragment() {
         val view = inflater.inflate(R.layout.dialog_feed_back, null, false)
         builder.setView(view)
         submitButtonClicked(view)
+        //TEST
         return builder.create()
 
     }
