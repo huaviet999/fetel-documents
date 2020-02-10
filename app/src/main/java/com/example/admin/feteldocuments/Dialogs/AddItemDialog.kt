@@ -21,7 +21,7 @@ class AddItemDialog : AppCompatDialogFragment(){
         builder.setView(view)
         spinnerSetUp(view)
         verifyButtonClick(view)
-        ///
+        ////
         chooseFileButtonClick(view)
         return builder.create()
     }
